@@ -1,0 +1,25 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "API to get weather in certain location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segyhp/weather.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Segy Hendro Pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segyhp/weather/issues"
+  },
+  "homepage": "https://github.com/segyhp/weather#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
