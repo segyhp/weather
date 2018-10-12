@@ -15,7 +15,7 @@ var geoCodeAddress = (location, callback)=> {
         // console.log("Unable connect to API services")
     } else if (body.cod === "404") {
         // console.log("Error : ", body.message)
-        callback("Error : ", body.message )
+        callback("Error : "+ body.message )
     } else if (body.cod === 200) {
         callback(undefined, {
             location: body.name,
