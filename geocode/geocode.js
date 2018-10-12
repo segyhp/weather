@@ -20,13 +20,15 @@ var geoCodeAddress = (location, callback)=> {
         callback(undefined, {
             location: body.name,
             weather: body.weather[0].main+ ' - '+ body.weather[0].description,
-            longitde : body.coord.lon,
-            latitude : body.coord.lat
+            latitude: body.coord.lat,
+            longitude : body.coord.lon,
         })
         // console.log(`Location : ${body.name} `);  
         // console.log(`Weather : ${body.weather[0].main} - ${body.weather[0].description}  `);
         // console.log(`Longitude : ${body.coord.lon} `);
         // console.log(`Latitude : ${body.coord.lat} `);
+
+        
     }
     // else { 
 
